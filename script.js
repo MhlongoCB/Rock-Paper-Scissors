@@ -76,6 +76,8 @@ function outcome(){
     const outcomeStatement = document.createElement("h2");
     const playAgain = document.createElement("button");
 
+    playAgain.setAttribute("id", "playagain");
+
     if(playerscore == 5){
         outcomeStatement.textContent = "YOU WON!";
         result.appendChild(outcomeStatement);

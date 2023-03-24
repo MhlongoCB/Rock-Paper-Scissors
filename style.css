@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    background-color: #344648;
+}
+
+h1{
+    background-color: #FFBB98;
+    text-align: center;
+    padding: 5vh;
+}
+
+#container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 10vh;
+    padding-top: 5vh;
+}
+
+#description, #btns, #scores{
+    padding-bottom: 5vh;
+}
+
+#btns button{
+    width: 100px;
+    height: 100px;
+    background-color: #7D8E95;
+}
+
+#scores h3{
+    display: inline-block;
+    padding-right: 30px;
+}
+
+#playagain{
+    width: 150px;
+    height: 50px;
+    background-color: #7D8E95;
+    margin-top: 10px;
+}
